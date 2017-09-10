@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Sweet Heart">
 
+    {% include favicon.html %}
+    
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{prepend: site.baseurl }}{{ site.suburi }}/css/bootstrap.min.css" type="text/css">
 
@@ -37,4 +39,6 @@
     <link rel="amphtml" href="{{ page.id | prepend: '/_amp' | prepend: site.baseurl | prepend: site.url }}">
     {% endunless %}
     {% endif %}
+
+
 </head>
