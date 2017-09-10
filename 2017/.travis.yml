@@ -1,0 +1,30 @@
+language: go
+
+go:
+    - "1.5.1"
+
+env:
+  global:
+    - secure: "R+mCFjac6ddGDJCE8GT6viUaiPtj5LuyZBKk36mAS7mIRClrozCroJcnOQa3SssZ203Khr+x1lY2Hjk/mJkoMl+J5jkVeTRuL1W5ZIwZwFCEYL6PHTcssUm9F2pXF3XZ8zHbZHAoM7HRDSZd30EaUds0pEb3LAofZf9sDosKcU/kqJZGWcEj8kQy5ldUplpRAHGpTWwfOUq00BMcaiykwhlL202aqkhSFOdoMYLY2sDkqfy6vopUr+h7haXsSlN74gG0OiFe/O2pRAVpntlOtUSB0tjPyJASVKbjhXIvH99r4kQKi4vx4uppObFKzSTd/rSS/mvt6WHf4e9aC6vEFOUSVImW63jrgCQASXGIrAOTMew2glT/Yuv0njcbtkWWTsYsfvUAGbwPg+PW7b4wC/82WA+f1lbsM8WXuyxtRo3DfxxzyWUp5poGwc1q0fonG6aWW/nPxufsEo3VYuJBHO+afvkDbxjvyBEOQ+zrkUKVAm+yLMRWuY0xRIQ5u8TrSvNKl2YBdv4w1zYh1LVbtBXMje6nLYNIvnrQ/bRg3vOsluFZG0QokiEBuKcZ200lPBgIy45JdYY7D98lS/jsFTntzsJHHIYjWzCawCyQkvRjHU7KuDjxPkUEI7JV7m+2GkkFU4xa05l/lLENeBVb17MuW5pb8v+E6x9GTvTiuDU="
+    - GIT_DEPLOY_DIR=dist # this is the default output dir of Hugo
+    - GIT_DEPLOY_BRANCH=gh-pages # this is the target branch, replace by gh-pages for Project Pages
+    - GIT_DEPLOY_USERNAME="authenticjazzweekend" # dummy name
+    - GIT_DEPLOY_EMAIL=sweetheartkorea@gmail.com # replace by your email
+
+branches:
+  only:
+    - master # replace by master for Project Pages
+
+install:
+  - rm -rf dist || exit 0 # cleanup previous run
+
+before_script:
+    - go get -u -v github.com/spf13/hugo
+
+script:
+  - hugo -d dist # generate!
+
+after_success:
+  - cp .travis.yml dist # all branches need this file
+  - bash deploy.sh # run the deploy script
+

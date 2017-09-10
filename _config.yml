@@ -1,0 +1,34 @@
+# Site settings
+title: Authentic Jazz Weekend 2018
+email: sweetheartkorea@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Authentic Jazz Weekend 2018
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.authenticjazzweekend.com" # the base hostname & protocol for your site, e.g. http://example.com
+suburi: "/2018"
+
+#twitter_username:
+github_username: authenticjazzweekend
+
+# Build settings
+markdown: kramdown
+#theme: minima
+ampdir: "/2018/_amp"
+plugins:
+  - jekyll-feed
+  - amp-jekyll
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock
+timezone: Asia/Seoul
+permalink: none
+
+defaults:
+  -
+    scope:
+      path: "_posts" # 이 빈 문자열은 프로젝트 내의 모든 파일을 의미한다
+    values:
+      layout: "post"
+      permalink: "2018/:categories/:title.html"
+
