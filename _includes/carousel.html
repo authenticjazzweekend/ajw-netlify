@@ -1,7 +1,28 @@
-<section class="no-padding" id="carousel">
-  <amp-carousel width="400" height="300" layout="responsive" type="slides" autoplay delay="2000">
-    <amp-img src="/img/cr0.jpg" width="400" height="300" layout="responsive" alt="a sample image"></amp-img>
-    <amp-img src="/img/cr1.jpg" width="400" height="300" layout="responsive" alt="another sample image"></amp-img>
-    <amp-img src="/img/cr2.jpg" width="400" height="300" layout="responsive" alt="and another sample image"></amp-img>
-  </amp-carousel>
-</section>
+<div class="col-lg-10 col-lg-offset-1 centered">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {% for img in page.carousel %}
+                <li data-target="#carousel-example-generic" data-slide-to="{{ forloop.index0 }}" 
+                {% if forloop.index0 == 0 %}
+                    class="active"
+                {% endif %}>
+                </li>
+            {% endfor %}
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            {% for img in page.carousel.first %}
+                <div class="item active">
+                    <img src="{{ "/assets/img/project/carousel/" | prepend: site.baseurl }}{{ img }}" alt="">
+                </div>
+            {% endfor %}
+            {% for img in page.carousel offset:1 %}
+                <div class="item">
+                    <img src="{{ "/assets/img/project/carousel/" | prepend: site.baseurl }}{{ img }}" alt="">
+                </div>
+            {% endfor %}
+        </div>
+    </div> <!--/Carousel -->
+</div>

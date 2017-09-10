@@ -15,19 +15,25 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#people">People</a>
+                    <a class="page-scroll" href="{{ page.id |  prepend: site.baseurl | prepend: site.url }}/{{ site.suburi }}/#people">People</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#info">Info</a>
+                    <a class="page-scroll" href="{{ page.id |  prepend: site.baseurl | prepend: site.url }}/{{ site.suburi }}/#venue">Venue</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#competition">Competition</a>
+                    <a class="page-scroll" href="{{ page.id |  prepend: site.baseurl | prepend: site.url }}/{{ site.suburi }}/#post">Post</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#registration">Registration</a>
+                    <a class="page-scroll" href="{{ page.id |  prepend: site.baseurl | prepend: site.url }}/{{ site.suburi }}/schedule">Schedule</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="{{ page.id |  prepend: site.baseurl | prepend: site.url }}/{{ site.suburi }}/competition">Competition</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ page.id |  prepend: site.baseurl | prepend: site.url }}/{{ site.suburi }}/registration">Registration</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ page.id |  prepend: site.baseurl | prepend: site.url }}/{{ site.suburi }}/#contact">Contact</a>
                 </li>
             </ul>
         </div>
