@@ -17,8 +17,8 @@ markdown: kramdown
 ampdir: "/2018/_amp"
 plugins:
   - jekyll-feed
-  - amp-jekyll
   - jekyll-redirect-from
+  - amp-jekyll
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -30,6 +30,7 @@ defaults:
     scope:
       path: "_posts"
     values:
+      skip_amp: "true"
       layout: "post"
       permalink: "2018/post/:categories/:title.html"
 
