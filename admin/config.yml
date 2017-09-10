@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: authenticjazzweekend/2018 
+  repo: authenticjazzweekend/ajw-netlify
   branch: master # Branch to update
 
 publish_mode: editorial_workflow
