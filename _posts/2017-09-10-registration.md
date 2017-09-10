@@ -4,6 +4,8 @@ layout: post
 ---
 # AJW 2018 Registration
 
+![image]({{ site.url }}/2018/img/registration.jpg){:class="img-responsive"}
+
 English ver. appears below Korean.
 
 ---
