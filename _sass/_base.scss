@@ -349,3 +349,24 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+/* responsive videos */
+.video figure {
+	position: relative;
+	nowhitespace: afterproperty;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe, .video object, .video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.footer-content #pastevent { margin: 0px auto;}
+.footer-content #pastevent p { float:left; margin: 0px 10px; text-align: center;}
+.footer-content #pastevent ul { list-style: none}
+.footer-content #pastevent ul li { float:left; margin: 0px 10px;}
