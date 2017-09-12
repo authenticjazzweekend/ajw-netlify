@@ -21,6 +21,8 @@ plugins:
   - jekyll-redirect-from
   - amp-jekyll
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-lunr-js-search
 exclude:
   - Gemfile
   - Gemfile.lock

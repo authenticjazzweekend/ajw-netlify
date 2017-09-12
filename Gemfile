@@ -10,6 +10,8 @@ group :jekyll_plugins do
    gem 'amp-jekyll', '~> 1.0', '>= 1.0.1'
    gem 'jekyll-seo-tag'
    gem 'jekyll-language-plugin'
+   gem 'jekyll-sitemap'
+   gem 'jekyll-lunr-js-search'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -12,6 +12,7 @@ English ver. appears below Korean.
 
 * 9/12(화) 오후 1시 정각
 * 신청링크: <https://goo.gl/forms/b5pVm7YIzYZLvVb12>
+* 확인링크: <http://goo.gl/9Ewaje>
 
 ## 정원 및 가격
 
@@ -34,10 +35,11 @@ English ver. appears below Korean.
 
 English ver.
 
-## Registration on
+## Register on
 
 * On-line registration will be open on September 12th 1pm KST for Authentic Jazz Weekend 2018 in Korea.
 * Registration Link: <https://goo.gl/forms/b5pVm7YIzYZLvVb12>
+* Confirmation: <http://goo.gl/9Ewaje>
 
 ## Package and Capacity
 
@@ -54,3 +56,15 @@ English ver.
 * Every form must be filled when registering.
 
 * *We have the Solo Jazz competition divided into 2 levels. So you can choose among "Open, Advanced or Not joining" when you register. More details about competition will be open soon.*
+
+---
+
+## 신청자 명단 : Registered List
+
+<http://goo.gl/9Ewaje>
+
+{% raw %}
+<div class="col-lg-12 col-sm-12">
+<iframe width="100%" height="600px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS8S_lFf4DXVOuf6BauYQRRohJ09puit2oUp2WXy5YCed4R7R55FzD86AjOWqTFZ_Pvo0Zlqq0eze4d/pubhtml?gid=2051765417&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+</div>
+{% endraw %}
