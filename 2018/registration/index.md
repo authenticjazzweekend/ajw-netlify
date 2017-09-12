@@ -8,14 +8,15 @@ English ver. appears below Korean.
 
 ---
 
-## AJW 2018 신청 일시: 
+## AJW 2018 신청 일시
 
 * 9/12(화) 오후 1시 정각
 * 신청링크: <https://goo.gl/forms/b5pVm7YIzYZLvVb12>
 
-## 정원 및 가격:
+## 정원 및 가격
 
 * 풀패키지: 1차 (24만/30명), 2차(25만/40명), 3차(26만/40명)
+* **입금 계좌**: 신청 명단과 함께 공지
 
 ## 풀패키지 구성
 
@@ -40,7 +41,7 @@ English ver.
 
 ## Package and Capacity
 
-* Full Package: 
+* Full Package:
   * 1st (240,000 KRW / 30 people)
   * 2nd (250,000 KRW / 40 people)
   * 3rd (260,000 KRW / 40 people)
