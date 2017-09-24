@@ -1,6 +1,8 @@
 ---
+title: Registration Open!
+description: >
+  매년 세계적으로 화제가 되는 대회로 자리잡고 있는 AJW Competition! 2018년의 시작도 어김없이 AJW Competition에서 전율과 환희의 순간을 함께 하세요!
 layout: post
-
 ---
 # AJW 2018 Registration
 

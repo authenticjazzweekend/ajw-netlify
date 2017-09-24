@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.authenticjazzweekend.com" # the base hostname & protocol for your site, e.g. http://example.com
 suburi: "/2018"
+logo: "/2018/img/poster1.jpg"
 google_analytics: "UA-44532734-2"
 
 #twitter_username:
@@ -39,6 +40,7 @@ defaults:
       skip_amp: "true"
       layout: "post"
       permalink: "2018/post/:categories/:title.html"
+      image: "/2018/img/poster2.jpg"
 
 carousel:
   - "/2018/img/cr0.jpg"

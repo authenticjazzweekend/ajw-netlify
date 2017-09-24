@@ -1,14 +1,16 @@
 ---
 layout: page
+description: >
+  매년 세계적으로 화제가 되는 대회로 자리잡고 있는 AJW Competition! 2018년의 시작도 어김없이 AJW Competition에서 전율과 환희의 순간을 함께 하세요!
 
 ---
 # Competition
 
 {% youtube videoseries?list=PL_ePr9SSxWXhAS9jxVsyz40SHYx5Iqa6q %}
 
-## AJW 2017 Competition 안내
+## AJW 2018 Competition 안내
 
-매년 세계적으로 화제가 되는 대회로 자리잡고 있는 AJW Competition! 2017년의 시작도 어김없이 AJW Competition에서 전율과 환희의 순간을 함께 하세요!
+매년 세계적으로 화제가 되는 대회로 자리잡고 있는 AJW Competition! 2018년의 시작도 어김없이 AJW Competition에서 전율과 환희의 순간을 함께 하세요!
 
 * 대회 참가 신청 링크: TBA
 * 대회 참가 신청 확인: TBA
