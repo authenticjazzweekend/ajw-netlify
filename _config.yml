@@ -10,6 +10,12 @@ logo: "/2018/img/poster1.jpg"
 google_analytics: "UA-44532734-2"
 
 #twitter_username:
+
+#facebook
+facebook:
+  app_id: 132917764008803
+  publisher: https://www.facebook.com/sweetheartswing
+  admins: 1018232241
 facebook_url: "https://www.facebook.com/events/1753882241577424"
 github_username: authenticjazzweekend
 
