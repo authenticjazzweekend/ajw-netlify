@@ -43,15 +43,15 @@ defaults:
       layout: "post"
       permalink: "2018/post/:categories/:title.html"
       image: "/2018/img/poster2.jpg"
-  -
-    scope:
-      path: ""
-      type: "page"
-    values:
-      sitemap: true
-      skip_amp: "true"
-      layout: "page"
-      image: "/2018/img/poster2.jpg"
+  # -
+  #   scope:
+  #     path: ""
+  #     type: "page"
+  #   values:
+  #     sitemap: true
+  #     skip_amp: "true"
+  #     layout: "page"
+  #     image: "/2018/img/poster2.jpg"
 
 carousel:
   - "/2018/img/cr0.jpg"
