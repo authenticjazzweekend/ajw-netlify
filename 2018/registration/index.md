@@ -1,5 +1,8 @@
 ---
 layout: page
+description: >
+  Registration! 신청 하세요!
+image: "/2018/img/poster2.jpg"
 
 ---
 # AJW 2018 Registration

@@ -11,11 +11,6 @@ google_analytics: "UA-44532734-2"
 
 #twitter_username:
 
-#facebook
-facebook:
-  app_id: 132917764008803
-  publisher: https://www.facebook.com/sweetheartswing
-  admins: 1018232241
 facebook_url: "https://www.facebook.com/events/1753882241577424"
 github_username: authenticjazzweekend
 
@@ -43,9 +38,19 @@ defaults:
     scope:
       path: "_posts"
     values:
+      sitemap: false
       skip_amp: "true"
       layout: "post"
       permalink: "2018/post/:categories/:title.html"
+      image: "/2018/img/poster2.jpg"
+  -
+    scope:
+      path: ""
+      type: "page"
+    values:
+      sitemap: true
+      skip_amp: "true"
+      layout: "page"
       image: "/2018/img/poster2.jpg"
 
 carousel:
@@ -56,6 +61,10 @@ carousel:
 
 #seo
 logo: "/2018/img/poster2.png"
-google_site_verification: ""
 webmaster_verifications:
-  google: 1234
+  google: -VJVLhW9vRNJm0Vh06PQdsFjKA3vdbZHy58kP3Qu73I
+facebook:
+  app_id: 132917764008803
+  publisher: https://www.facebook.com/sweetheartswing
+  admins: 1018232241
+lang: ko_KR
