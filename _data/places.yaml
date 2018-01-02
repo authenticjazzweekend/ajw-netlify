@@ -1,0 +1,23 @@
+  - title: "빅애플 (Big Apple Swing Dance Hall)"
+    url: "http://www.google.co.kr"
+    location:
+      latitude: 37.48025
+      longitude: 126.99307
+
+  - title: "스윙 아카데미 (Swing Academy Dance Studio)"
+    url: "http://www.google.co.kr"
+    location:
+      latitude: 37.48012
+      longitude: 126.99295
+
+  - title: "방배 에어로빅 (Bang-bae Aerobic Dance Studio)"
+    url: "http://www.google.co.kr"
+    location:
+      latitude: 37.48152
+      longitude: 126.99258
+
+  - title: "애플 연습실 (Apple Dance Studio)"
+    url: "http://www.google.co.kr"
+    location:
+      latitude: 37.48446
+      longitude: 126.99277

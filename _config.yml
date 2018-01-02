@@ -25,6 +25,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-lunr-js-search
+  - jekyll-maps
 include:
   - _redirects
 exclude:
@@ -58,6 +59,12 @@ carousel:
   - "/2018/img/cr1.jpg"
   - "/2018/img/cr2.jpg"
   - "/2018/img/cr3.jpg"
+
+maps:
+  google:
+    api_key: AIzaSyC67iSKL5ey-XCMYDLN_rRAGjlpbgDBo-w
+    marker_cluster:
+      enabled: false
 
 #seo
 logo: "/2018/img/poster2.png"
